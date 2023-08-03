@@ -1,22 +1,15 @@
-function Message(){
-    const name = 'Kamal'
-    if (name){
-        return (
-            <h1 className = "pepepopo " >
-                Hello {name}
-            </h1>
-        )
-    }else{
-        return(
+function ListGroup(){    
+    return(
             <h1>
                 Hello World
             </h1>
         )
     }
-}
 
-export default Message;
+export default ListGroup;
 /*  
     >created a constant variable which contains a name 
-    >the variable is being used in the <h1> element
+    >checks if a name is present
+    > if name is present greets the user
+    > if name not present greets the world
 */
